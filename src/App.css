@@ -1,0 +1,89 @@
+ * {
+  margin: 0;
+background-color: whitesmoke;
+text-decoration: none;
+
+}
+
+
+.album-content {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Courier New', Courier, monospace;
+  border-bottom: 1px #a5a5a5 solid;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  margin-top: 2px ;
+  
+}
+
+.album-img {
+  height: 200px;
+  width: 200px;
+  flex-wrap: wrap;
+  gap: 30px;
+   margin-top: 30px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-decoration: none;
+   border-radius: 30px;
+
+
+
+}
+
+
+
+.Header{
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.barra{
+  height: 20px;
+  width: 400px;
+} 
+
+.botao{
+  background-color: rgb(62, 190, 80);
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-radius: 40px;
+  color: antiquewhite;
+  animation-duration: 3s;
+  animation-name: inherit;
+}
+
+.foto{
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+
+
+}
+
+.album-info{
+  text-decoration: none;
+  color: green;
+  margin-left: 40px;
+  font-weight: bold;
+  border-radius: 30px;
+
+
+
+}
+.album-name{
+  color: black;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  flex-direction: column;
+  margin-bottom: 10px;
+  
+  
+
+}

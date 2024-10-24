@@ -1,0 +1,82 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; 
+}
+
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #91d4b3; 
+    color: white;
+}
+
+.Voltar {
+    background-color: rgb(62, 190, 80);
+
+    color: #282c34; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Voltar:hover {
+    background-color: #21a1f1; 
+}
+
+
+.pai {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 20px; 
+}
+
+.musicas {
+    background-color: white; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    margin: 10px; 
+    text-align: center; 
+    width: 300px; 
+}
+
+.musicas img {
+    width: 100%; 
+    border-radius: 10px; 
+}
+
+.nome {
+    font-size: 1.5em; 
+    margin: 10px 0; 
+}
+
+.artista {
+    font-size: 1.2em; 
+    color: #555; 
+    margin: 5px 0; 
+}
+
+
+.genero {
+    font-size: 1em;
+    color: #777;
+    margin: 5px 0;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+li {
+    font-size: 1em; 
+    color: #333; 
+    margin: 5px 0; 
+}
